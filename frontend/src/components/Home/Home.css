@@ -1,0 +1,142 @@
+.home {
+    background-image: url('../../Components/Assets/image1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+
+    display: flex;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+
+}
+
+.home-left {
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.barriere{
+    position: absolute;
+    top: 800px;
+    background-color: #000000;
+    width: 1519px;
+    left: 0%;
+    align-content: center;
+    
+}
+
+.gap{
+    position: absolute;
+    padding: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+h2 {
+    /* FIND CLOTHES THAT MATCHES YOUR STYLE */
+
+position: absolute;
+width: 577px;
+height: 173px;
+left: 100px;
+top: 237px;
+padding: 10px;
+font-family: 'Integral CF';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+/* or 100% */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+}
+
+p1 {
+    /* Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style. */
+
+position: absolute;
+width: 545px;
+height: 33px;
+left: 100px;
+top: 500px;
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+ 
+
+color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+.home-btn {
+    /* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 54px;
+gap: 12px;
+
+position: absolute;
+width: 210px;
+height: 52px;
+left: 100px;
+top: 600px;
+
+background: #000000;
+border-radius: 62px;
+
+}
+
+.btn {
+ 
+ background-color: #000000;
+
+color: #FFFFFF;
+ 
+
+}
+
+
+.number-section {
+    /* Frame 57 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 596px;
+height: 74px;
+left: 100px;
+top: 707px;
+
+
+}
+
+ 
+  
