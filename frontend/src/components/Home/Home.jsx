@@ -7,7 +7,7 @@ import Brand1 from '../Assets/bariere logos/Group-1.png'
 import Brand2 from '../Assets/bariere logos/Group.png'
 import Brand3 from '../Assets/bariere logos//gucci-logo-1 1.png'
 import Brand4 from '../Assets/bariere logos/zara-logo-1 1.png'
-
+import footer from '../Assets/image.png'
 const Home2 = () => {
    
   return (
@@ -69,6 +69,12 @@ const Home2 = () => {
         <Home3 />
 
         <Browse />
+
+        <div className='footer'>
+
+        <img src={footer} alt = "footerimg" className='footerimg'/>
+
+        </div>
 
 
  </div>

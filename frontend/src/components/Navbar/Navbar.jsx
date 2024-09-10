@@ -1,14 +1,36 @@
+import React from 'react'
+import './Navbar.css'; 
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-const NavBar = () => {
+
+
+const Navbar = () => {
   const { cartTotalQuantity } = useSelector((state) => state.cart);
+
   return (
-    <nav className="nav-bar">
-      <Link to="/">
-        <h2>OnlineShop</h2>
-      </Link>
-      <Link to="/cart">
+    <div className='navbar'>
+        <div className="nav-logo">
+            <p>SHOP.CO</p>
+        </div>
+        <ul className="nav-menu">
+            <li>Shop</li>
+            <li>On Sale</li>
+            <li>New Arrivals</li>
+            <li>Brands</li>
+        </ul>
+
+        <div className="search-bar-container">
+            <input 
+            type="text"
+            placeholder="Search for products..."
+            className="text-bar"
+             
+            
+            />
+            </div>
+
+          <Link to="/cart">
         <div className="nav-bag">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,8 +47,9 @@ const NavBar = () => {
           </span>
         </div>
       </Link>
-    </nav>
-  );
-};
 
-export default NavBar;
+    </div>
+  )
+}
+
+export default Navbar

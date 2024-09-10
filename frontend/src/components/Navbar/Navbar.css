@@ -1,0 +1,148 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;;
+}
+
+ 
+.nav-logo p{
+    /* SHOP.CO */
+ 
+position: absolute;
+font-family: 'Integral CF';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+ 
+display: flex;
+align-items: center;
+margin-right: 30px;
+color: #000000;
+top: 4%;
+ 
+
+}
+
+.nav-menu{
+display: flex;
+ 
+list-style: none;
+align-items: center;
+padding: 0px;
+gap: 24px;
+font-size: 15px;
+font-weight: 500;
+/* margin-right: 350px; */
+
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 20px;
+    margin-right: 55px;
+    
+
+}
+
+
+.search-bar-container {
+/* display: flex;
+align-items: center;
+padding: 6px 16px;
+gap: 12px;
+
+width: 377px;
+height: 48px;
+
+background: #F0F0F0;
+border-radius: 62px;
+
+position: absolute;
+left: 57.73%;
+ 
+top: 7.73%;
+bottom: 7.79%; */
+
+display: flex;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 12px;
+    width: 377px;
+    height: 48px;
+    margin-top: 10px;
+    background: #F0F0F0;
+    border-radius: 62px;
+    position: relative;
+    right: 27.73%;
+    left: 50px;
+    top: 4%;
+ 
+}
+
+.text-bar {
+    flex-grow: 1;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.text-bar::placeholder {
+    color: #888;
+}
+ 
+
+
+.icon {
+   /* Vector */
+
+/* position: absolute;
+left: 7.73%;
+right: 29.79%;
+top: 9.73%;
+bottom: 7.79%;  */
+/* display: flex; */
+/* left: 19.73%; */
+/* align-items: center;
+justify-content: center; */
+
+display: flex;
+align-items: center;
+justify-content: center;
+ 
+
+    }
+
+    .icon img {
+        width: 24px;
+        height: 24px;
+    }
+ 
+
+.user-icon {
+    /* Frame */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}

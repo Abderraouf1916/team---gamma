@@ -9,6 +9,8 @@ import {
 } from "../slices/cartSlice";
 
 import { Link } from "react-router-dom";
+import footer from '../components/Assets/image.png';
+
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
@@ -32,7 +34,7 @@ const Cart = () => {
   };
   return (
     <div className="cart-container">
-      <h2>Shopping Cart</h2>
+      <h2 className="shoppinCartTv">Shopping Cart</h2>
       {cart.cartItems.length === 0 ? (
         <div className="cart-empty">
           <p>Your cart is currently empty</p>
@@ -124,6 +126,11 @@ const Cart = () => {
           </div>
         </div>
       )}
+      <div className='footerCart'>
+
+<img src={footer} alt = "footerimg" className='footerimg'/>
+
+</div>
     </div>
   );
 };

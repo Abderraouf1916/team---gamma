@@ -41,12 +41,14 @@
 .nav-bar h2 {
   font-size: 40px;
   position: absolute;
-  top: -7%;
+  top: 0%;
   color: #f9f9f9;
 }
 .nav-bag {
+  position: absolute;
   display: flex;
   align-items: center;
+  top: 4%;
 }
 .bag-quantity {
   display: flex;
@@ -346,4 +348,30 @@ left: -1px;
   .cart-summary .clear-btn {
     margin-bottom: 2rem;
   }
+}
+
+
+.footer{
+  position: absolute;
+  top: 3118px;
+  width: 1400x;
+  left: 0%;
+}
+
+.footerCart{
+  position: absolute;
+  top: 680px;
+  width: 1400x;
+  left: 0%;
+}
+
+.footerimg{
+  width: 1518px;
+}
+
+.shoppinCartTv{
+  position: absolute;
+  top: 35px;
+  font-style: bold;
+
 }
