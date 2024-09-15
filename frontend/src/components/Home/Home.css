@@ -138,5 +138,17 @@ top: 707px;
 
 }
 
+
+
+.browse2{
+    position: relative;
+    z-index: 5;
+}
+
+.footer2{
+    position: relative;
+    z-index: 6;
+}
+
  
   

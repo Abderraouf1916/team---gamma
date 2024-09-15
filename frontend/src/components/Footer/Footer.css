@@ -1,0 +1,193 @@
+ .footer-list-title {
+    color: black;
+    font-size: 120%;
+   
+  }
+
+  
+  .footer-top .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+
+gap: 40px;
+position: absolute;
+
+height: 177px;
+left: 100px;
+top: 3200px;
+
+
+  }
+ 
+  .footer-text {
+ /* We have clothes that suits your style and which you’re proud to wear. From women to men. */
+position: absolute;
+width: 248px;
+height: 66px;
+position: relative;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+margin-top: 50px;
+ 
+  }
+ 
+  .social-list {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+     
+    gap: 10px;
+    list-style: none; 
+    align-items: center;
+    top: 400px;
+    padding: 14px 5px; 
+ 
+  }
+
+  .social-link {
+    color: black;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+  }
+ 
+
+.footer-list {
+    margin-top: 100px; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} 
+
+.footer-lists {
+ 
+display: flex;
+align-items: flex-start;
+padding: 0px;
+gap: 46px;
+
+margin: 0 auto;
+width: 136px;
+height: 177px;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+.footer-list-title {
+ 
+width: 98px;
+height: 18px;
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+   
+}
+
+.footer-link {
+     
+    color: black;
+    padding-block: 5px;
+    display: block;
+    text-decoration: none;
+    
+    
+}
+ 
+
+@media (max-width: 768px) {
+  .footer-top .container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    
+  
+  }
+
+  .nav-logo {
+    position: relative;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    z-index: 2;
+   
+  }
+
+  .footer-text {
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  .social-list {
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .footer-lists {
+display: flex;
+ 
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+
+position: absolute;
+ 
+left: 16px;
+top: 151px;
+  }
+
+  .footer-list {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-link {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-list {
+    flex-direction: column;
+  }
+
+  .footer-lists {
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .footer-list {
+    width: 100%;
+    align-items: center;
+  }
+}

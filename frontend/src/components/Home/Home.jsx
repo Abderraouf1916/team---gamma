@@ -8,10 +8,12 @@ import Brand2 from '../Assets/bariere logos/Group.png'
 import Brand3 from '../Assets/bariere logos//gucci-logo-1 1.png'
 import Brand4 from '../Assets/bariere logos/zara-logo-1 1.png'
 import footer from '../Assets/image.png'
+import Footer from '../Footer/Footer';
 const Home2 = () => {
    
   return (
     <div className='home'>
+      
         <div className="home-left">
             <h2>FIND CLOTHES THAT MATCHES YOUR STYLE</h2>
             <div>
@@ -70,15 +72,8 @@ const Home2 = () => {
 
         <Browse />
 
-        <div className='footer'>
-
-        <img src={footer} alt = "footerimg" className='footerimg'/>
-
-        </div>
-
-
+       <Footer />
  </div>
-
  
   )
 }

@@ -10,6 +10,7 @@ import {
 
 import { Link } from "react-router-dom";
 import footer from '../components/Assets/image.png';
+import Footer from "./Footer/Footer";
 
 
 const Cart = () => {
@@ -126,11 +127,8 @@ const Cart = () => {
           </div>
         </div>
       )}
-      <div className='footerCart'>
 
-<img src={footer} alt = "footerimg" className='footerimg'/>
-
-</div>
+      <Footer  />
     </div>
   );
 };
