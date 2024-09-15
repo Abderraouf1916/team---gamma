@@ -1,28 +1,28 @@
 
 ------- Raouf Gcm -------------
 
-To run the project :
+## Run yourself
 
+1. Clone this repo
+```bash
+git clone https://github.com/Abderraouf1916/team---gamma && cd team--gamma
+```
+2. Install project dependecies
+   
+```
+cd ./backend && npm install
+cd ./frontend && npm install 
+```
+3. Start development servers (backend & frontend) with the provided script
 
->> cd backend 
+.Backend :  
+ 
+```
+nodemon
+```
+.Frontend :
 
-please make sure to install express nodemon and cors by typing
+```
+npm run start
+```
 
-npm i express nodemon cors
-
->> nodemon
-
-before running nodemon command pls run this command 
-
-$env:NODE_OPTIONS = "--openssl-legacy-provider"
-
-
-
-After running backend  now it's time to start the frontend 
-
-open new terminal and keep the old one opened 
-
-
->> cd frontend 
-
->> npm run start****
